@@ -1,0 +1,3 @@
+# Whatsapp Message Automator
+
+The bot automates bulk messaging on whatsapp, in short. Using the whatsapp web service, supplying it a CSV file with the contacts, and entering the message to deliver, the script texts on your behalf. The CSV file needs to have 2 headers, "Saved Contacts" and "Unsaved Contacts", which is read using the pandas framework, and the rest is done using the selenium webdriver. Further, messages can be scheduled using the scheduler package and media messages can be done using autoit on windows (not implemented because using MacOS, and yet to find something similar for it).
