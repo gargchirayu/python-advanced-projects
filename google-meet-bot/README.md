@@ -1,0 +1,3 @@
+# Google Meet Bot
+
+This bot basically attends your google meets for you; post login using any instituitional email address and providing the meet link and start time, it will schedule a process to connect to the meet and disconnect later based on the end time provided. The project uses the selenium web driver and simply automates the browser tasks of logging in, connecting to the meet and disbaling your camera/mic. It logs you into your institutional account using the StackOverflow API, but currently, does not work with a Google account, because of google limiting any bot activity on its accounts; I'll look for a work around in the future.
